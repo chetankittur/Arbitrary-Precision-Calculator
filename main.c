@@ -1,19 +1,4 @@
-/*Name: Chetan Kittur
-  Date: 18/12/2025
-  Project Title: Arbitrary Precision Calculator
-  Description: The Arbitrary Precision Calculator (APC) is a command-line based application developed in the C programming 
-               language to perform arithmetic operations on integers of unlimited size. Unlike conventional calculators that 
-               are restricted by fixed-size data types, this project overcomes such limitations by representing numbers as doubly 
-               linked lists, where each node stores a single digit. This design allows the calculator to efficiently handle very
-                large positive and negative integers. The project supports core arithmetic operations such as addition, 
-                subtraction, multiplication, and division, with complete sign management and correct handling of edge cases like
-                zero and unequal operand lengths. Each operation is implemented using fundamental arithmetic principles,
-                including carry propagation in addition, borrow handling in subtraction, partial product generation in
-                multiplication, and repeated subtraction for division. The application accepts input through command-line
-                arguments, ensuring flexibility and ease of use. This project highlights practical applications of data 
-                structures, dynamic memory allocation, modular programming, and algorithmic problem-solving in C, making 
-                it a robust and scalable solution for high-precision numerical computation.
- */
+
 #include <stdio.h>
 #include "apc.h"
 int main(int argc, char *argv[])
